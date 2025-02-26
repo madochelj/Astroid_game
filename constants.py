@@ -11,3 +11,6 @@ PLAYER_RADIUS = 20
 #player turn speed
 PLAYER_TURN_SPEED = 300
 
+#speed
+PLAYER_SPEED = 200
+
