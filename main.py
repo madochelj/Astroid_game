@@ -41,6 +41,10 @@ def main():
             if player.collision(astroid):
                 print("Game Over")
                 sys.exit()
+        for shot in shots:
+            for astroid in asteroids:
+                if shot.collision(astroid):
+                    astroid.split(shot)
 
 
         for obj in drawable:
